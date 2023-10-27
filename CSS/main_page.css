@@ -1,0 +1,102 @@
+/* CSS rules for the vertical lines */
+.vertical-line {
+    border-left: 1px solid #000;
+    height: 30px;
+    line-height: 0px; /* Set line-height equal to height for vertical alignment */
+    display: inline-block;
+    margin: 0 30px; /* Adjust the margin as needed */
+}
+
+/* CSS rules for the content inside the lines */
+
+
+.logo_place {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 60vw;
+}
+
+.f_content p, .f_content img {
+    display: inline-block;
+    vertical-align: middle; /* Optional: Align elements vertically */
+    text-align: center;
+}
+
+/* Optional: Style for the text */
+p {
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* Center the container div horizontally and vertically */
+.centered-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the paragraph */
+.centered-paragraph p {
+    text-align: center; /* Center the text horizontally */
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Style the container for the image and text overlay */
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+/* Style the image to fill the container */
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the text overlay */
+.f_text-overlay {
+    position: absolute;
+    top: 0; /* Place the text overlay at the bottom of the image */
+    width: 98%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity */
+    padding: 20px;
+    display: flex; /* Display the S_content elements horizontally */
+    justify-content: space-around; /* Spread them evenly horizontally */
+    align-items: center; /* Center vertically within the container */
+    
+}
+
+.S_text-overlay {
+    position: absolute;
+    top: 15vw; /* Place the text overlay at the bottom of the image */
+    width: 98%;
+    padding: 20px;
+    display: flex; /* Display the S_content elements horizontally */
+    justify-content: space-around; /* Spread them evenly horizontally */
+    align-items: center; /* Center vertically within the container */
+    
+}
+
+
+/* Style the individual S_content elements */
+.S_content {
+    padding: 0 10px; /* Add spacing between the elements */
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* Text color */
+}
+
+
+.T_content {
+    padding: 0 30px; /* Add spacing between the elements */
+    font-weight: bold;
+    color: white; /* Text color */
+    font-size: 100px;
+}
+
+.T_content p{
+    font-size: 100px;
+}
