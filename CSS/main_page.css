@@ -62,7 +62,8 @@ p {
     top: 0; /* Place the text overlay at the bottom of the image */
     width: 98%;
     background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity */
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex; /* Display the S_content elements horizontally */
     justify-content: space-around; /* Spread them evenly horizontally */
     align-items: center; /* Center vertically within the container */
