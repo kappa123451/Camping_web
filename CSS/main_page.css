@@ -8,7 +8,12 @@
 }
 
 /* CSS rules for the content inside the lines */
-
+.vertical {
+    height: 30px;
+    line-height: 0px; /* Set line-height equal to height for vertical alignment */
+    display: inline-block;
+    margin: 0 30px; /* Adjust the margin as needed */
+}
 
 .logo_place {
     text-align: center;
