@@ -83,7 +83,7 @@ p {
 
 
 .section_top {
-    flex-grow: 1; /* Equal width for both sections */
+    flex: 1; /* Equal width for both sections */
     max-width: 50%;
     margin-top: 5%;
     margin-bottom: 5%;
