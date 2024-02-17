@@ -1,11 +1,22 @@
 /* CSS rules for the vertical lines */
 .vertical-line {
-    border-left: 1px solid #000;
+    
     height: 30px;
     line-height: 0px; /* Set line-height equal to height for vertical alignment */
     display: inline-block;
     margin: 0 30px; /* Adjust the margin as needed */
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
+
+.vertical_space {
+    line-height: 0px; /* Set line-height equal to height for vertical alignment */
+    display: inline-block;
+    margin: 0 30px; /* Adjust the margin as needed */
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 
 /* CSS rules for the content inside the lines */
 .vertical {
@@ -30,9 +41,17 @@
 /* Optional: Style for the text */
 p {
     font-size: 18px;
-    margin-left: 5px;
     font-weight: bold;
 }
+
+.p_1 {
+    margin-top: 15%;
+    text-align: center
+}
+.text-left {
+    padding-right: 25%; /* Adjust this value according to your preference */
+}
+
 
 /* Center the container div horizontally and vertically */
 .centered-paragraph {
@@ -50,59 +69,35 @@ p {
 }
 
 /* Style the container for the image and text overlay */
-.image-container {
-    position: relative;
-    text-align: center;
-}
-
-/* Style the image to fill the container */
-.image-container img {
+.container {
+    display: flex;
+    background-color: hsla(45, 28.57%, 97.25%, 1);
     width: 100%;
-    height: auto;
 }
 
-/* Style the text overlay */
-.f_text-overlay {
-    position: absolute;
-    top: 0; /* Place the text overlay at the bottom of the image */
-    width: 98%;
-    background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex; /* Display the S_content elements horizontally */
-    justify-content: space-around; /* Spread them evenly horizontally */
-    align-items: center; /* Center vertically within the container */
-    
-}
 
-.S_text-overlay {
-    position: absolute;
-    top: 15vw; /* Place the text overlay at the bottom of the image */
-    width: 98%;
+
+.section_top {
+    flex-grow: 1; /* Equal width for both sections */
     padding: 20px;
-    display: flex; /* Display the S_content elements horizontally */
-    justify-content: space-around; /* Spread them evenly horizontally */
-    align-items: center; /* Center vertically within the container */
+    border: 1px solid #ccc;
+    max-width: 50%;
     
 }
 
-
-/* Style the individual S_content elements */
-.S_content {
-    padding: 0 10px; /* Add spacing between the elements */
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff; /* Text color */
+body {
+    margin: 0; /* Remove default margin */
 }
 
-
-.T_content {
-    padding: 0 30px; /* Add spacing between the elements */
-    font-weight: bold;
-    color: white; /* Text color */
-    font-size: 100px;
+.image_1{
+    max-width: 70%; /* Ensure the image doesn't exceed the width of its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.T_content p{
-    font-size: 100px;
-}
+br {
+    display: block;
+    margin: 10px 0;
+ }
