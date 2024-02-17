@@ -5,8 +5,8 @@
     line-height: 0px; /* Set line-height equal to height for vertical alignment */
     display: inline-block;
     margin: 0 30px; /* Adjust the margin as needed */
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .vertical_space {
@@ -40,14 +40,18 @@
 
 /* Optional: Style for the text */
 p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .p_1 {
+    font-size: 25px;
+    font-weight: lighter;
     margin-top: 15%;
-    text-align: center
+    text-align: center;
 }
+
+
 .text-left {
     padding-right: 25%; /* Adjust this value according to your preference */
 }
@@ -69,24 +73,25 @@ p {
 }
 
 /* Style the container for the image and text overlay */
-.container {
+.container_1 {
     display: flex;
     background-color: hsla(45, 28.57%, 97.25%, 1);
     width: 100%;
+    
 }
 
 
 
 .section_top {
     flex-grow: 1; /* Equal width for both sections */
-    padding: 20px;
-    border: 1px solid #ccc;
     max-width: 50%;
-    
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 body {
     margin: 0; /* Remove default margin */
+
 }
 
 .image_1{
@@ -97,7 +102,8 @@ body {
     margin-bottom: 5%;
 }
 
-br {
-    display: block;
-    margin: 10px 0;
- }
+.container_2 {
+    display: flex;
+    background-color: #E9E4DEFF;;
+    width: 100%;
+}
